@@ -1,5 +1,18 @@
 /* colors*/
 /* breakpoints*/
+/*
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+	}
+	@include media-up(xmedium) {
+	}
+	@include media-up(large) {
+	}
+	@include media-up(xlarge) {
+	}
+	@include media-up(wide) {
+	}*/
 @font-face {
   font-family: "TacticSans";
   src: url("./../fonts/TacticSans/TacticSans-Thn.ttf") format("truetype");
@@ -81,8 +94,8 @@
   font-weight: 800;
   font-style: italic; }
 body {
-  color: #fff;
-  background-color: #0f0f15;
+  color: #080808;
+  background-color: #b2b2b2;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   margin: 0;
@@ -95,7 +108,7 @@ img {
   height: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: #080808;
   font-family: "TacticSans", sans-serif;
   margin: 0;
   font-weight: 500; }
@@ -146,19 +159,19 @@ h6 {
       font-size: 16px; } }
 
 a {
-  color: #fff;
+  color: #f8f8f8;
   outline: 0;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
   a * {
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
   a:hover {
-    color: #ce0d0d;
+    color: #d22323;
     text-decoration: none;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out; }
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
   a:focus {
     outline: 0; }
 
@@ -204,5 +217,26 @@ pre {
 
 .d-none {
   display: none; }
+
+.button {
+  padding: 12px 16px;
+  border-radius: 100px;
+  background: #f8f8f8;
+  color: #40515a;
+  border: 1px solid #40515a;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+  .button:focus {
+    background: #899fab;
+    color: #f8f8f8; }
+  @media (min-width: 1024px) {
+    .button:hover {
+      background: #ffcc00; } }
 
 /*# sourceMappingURL=main__styles.css.map */

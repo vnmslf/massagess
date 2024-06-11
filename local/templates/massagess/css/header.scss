@@ -1,50 +1,48 @@
 @import "./../scss/style";
 header {
-	padding: 8px 0;
 	position: fixed;
 	z-index: 5;
 	top: 0;
 	width: 100%;
-	&:before {
-		content: '';
-		position: absolute;
-		z-index: -1;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba($dark_gray, .5);
-		backdrop-filter: blur(15.3px);
-	}
+	background: $white;
 	.container {
-		justify-content: space-between;
-		.logo {
-			position: relative;
-			z-index: 2;
+		.header__line {
 			display: flex;
-			flex-direction: row;
+			justify-content: space-between;
 			align-items: center;
-			gap: 14px;
-			span {
-				font-weight: 400;
-				max-width: 70px;
-				font-family: "TacticSans", sans-serif;
+			width: 100%;
+			.actions {
+				display: flex;
+				gap: 4px;
 			}
-		}
-		.actions {
-			position: relative;
-			z-index: 2;
 		}
 	}
-	@include media-up(xsmall) {
-		&:before {
-		}
+	@include media-down(xmedium) {
 		.container {
-			.logo {
-				span {
-				}
+			padding: 12px 26px;
+		}
+	}
+	@include media-up(xmedium) {
+		background: transparent;
+		.container {
+			.header__line {
+				background: $white;
+				border-radius: 100px;
+				padding: 16px 24px;
 			}
-			.actions {
+		}
+	}
+	@include media-up(large) {
+		top: 32px;
+		.container {
+			.header__line {
+			}
+		}
+	}
+	@include media-up(wide) {
+		.container {
+			.header__line {
+				padding: 16px 160px;
 			}
 		}
 	}

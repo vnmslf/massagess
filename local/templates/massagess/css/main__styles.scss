@@ -96,8 +96,8 @@
 	font-style: italic;
 }
 body {
-	color: $white;
-	background-color: $dark_gray;
+	color: $black;
+	background-color: $gray;
 	font-family: "Inter", sans-serif;
 	font-size: 16px;
 	margin: 0;
@@ -110,7 +110,7 @@ img {
 	height: auto;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: $white;
+	color: $black;
 	font-family: "TacticSans", sans-serif;
 	margin: 0;
 	font-weight: 500;
@@ -219,4 +219,7 @@ pre {
 }
 .d-none {
 	display: none;
+}
+.button {
+	@include default_btn($white, $sb, $sb-light, $gray);
 }

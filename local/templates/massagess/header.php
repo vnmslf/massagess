@@ -38,11 +38,15 @@ $now_url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http').'://'.$_SERVER['HTTP
 	<div id="panel"><?$APPLICATION->ShowPanel();?></div>
 	<header>
 		<div class="container">
-			<a class="logo" href="/">
-				<img src="<?=SITE_TEMPLATE_PATH?>/images/logo.svg" alt="КОТ-МТТ, логотип" />
-				<span>Школа Покера</span>
-			</a>
-			<div class="actions">
+			<div class="header__line">
+				<a class="logo" href="/">
+					<img src="<?=SITE_TEMPLATE_PATH?>/images/logo.svg" alt="SPA ROOM MASSAGESS" />
+				</a>
+				<div class="actions">
+					<div class="button">Связаться</div>
+					<div class="basket">
+						<img src="<?=SITE_TEMPLATE_PATH?>/images/basket.svg" alt="Корзина" />
+					</div>
 <?$APPLICATION->IncludeComponent(
 	'bitrix:menu',
 	'header_menu',
@@ -63,6 +67,7 @@ $now_url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http').'://'.$_SERVER['HTTP
 	),
 	false
 );?>
+				</div>
 			</div>
 		</div>
 	</header>

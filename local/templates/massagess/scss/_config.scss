@@ -1,31 +1,43 @@
 /* colors*/
-$accent_red: #ff1414;
-$light_red: #f5222d;
-$red: #ce0d0d;
-$dark_red: #620606;
-$grad_one_red: #360508;
-$grad_two_red: #810507;
-$white: #fff;
-$black: #000;
-$light_gray: #c6c6c6;
-$gray: #282834;
-$dark_gray: #0f0f15;
-$rose: #db6868;
-$dark_white: #d1d1d1;
-$footer_grad: #b50000;
-$advantages: #330c11;
+$white: #f8f8f8;
+$white-70: rgba($white, .7);
+$white-50: rgba($white, .5);
+$white-grad: linear-gradient($white, rgba($white, 0));
+$black: #080808;
+$black-20: rgba($black, .2);
+$sb: #40515a;
+$sb-80: rgba($sb, .8);
+$sb-70: rgba($sb, .7);
+$sb-dark: #6b818d;
+$sb-dark-50: rgba($sb-dark, .5);
+$sb-light: #899fab;
+$sb-light-50: rgba($sb-light, .5);
+$yellow: #ffcc00;
+$red: #d22323;
+$gray-dark: #595959;
+$gray: #b2b2b2;
+$gray-60: rgba($gray, .6);
 
 /* breakpoints*/
 $breakpoints: (
-	zero: 0,
 	smallest: 424px,
 	small: 480px,
-	xsmall: 600px,
 	medium: 768px,
 	xmedium: 992px,
 	large: 1024px,
 	xlarge: 1280px,
-	xxlarge: 1440px,
-	prewide: 1880px,
 	wide: 1920px,
 );
+/*
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+	}
+	@include media-up(xmedium) {
+	}
+	@include media-up(large) {
+	}
+	@include media-up(xlarge) {
+	}
+	@include media-up(wide) {
+	}*/
