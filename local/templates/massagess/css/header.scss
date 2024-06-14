@@ -14,12 +14,34 @@ header {
 			.actions {
 				display: flex;
 				gap: 4px;
+				.button {
+					display: none;
+				}
+				.basket,
+				.menu__block {
+					display: inline-flex;
+					justify-content: center;
+					align-items: center;
+					width: 40px;
+					height: 40px;
+				}
 			}
 		}
 	}
 	@include media-down(xmedium) {
 		.container {
 			padding: 12px 26px;
+		}
+	}
+	@include media-up(xmedium) {
+		.container {
+			.header__line {
+				.actions {
+					.button {
+						display: block;
+					}
+				}
+			}
 		}
 	}
 	@include media-up(xmedium) {
