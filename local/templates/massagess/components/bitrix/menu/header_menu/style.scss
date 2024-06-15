@@ -9,13 +9,65 @@
 	.header__menu {
 		@include default_transition(.2s);
 		position: fixed;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 		top: 0;
 		left: 0;
 		right: 0;
-		height: max-content;
-		ul {
-			li {
+		bottom: 0;
+		background: $white;
+		transform: translateY(-100%);
+		padding: 40px 57.5px;
+		.top {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 48px;
+			width: 100%;
+			img {
+				width: 100%;
+			}
+			ul {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 36px;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-align: center;
+				li {
+					a {
+						color: $sb;
+						font-size: 16px;
+						line-height: 20px;
+						letter-spacing: 0.02em;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+		.bottom {
+			display: flex;
+			flex-direction: column;
+			gap: 32px;
+			text-align: center;
+			.contact__block {
+				display: flex;
+				flex-direction: column;
+				gap: 8px;
 				a {
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 24px;
+					color: $sb;
+				}
+				span {
+					font-size: 14px;
+					line-height: 20px;
+					color: $sb-70;
 				}
 			}
 		}
@@ -24,7 +76,8 @@
 		.menu__button {
 		}
 		.header__menu {
-			display: flex;
+			transform: translateY(64px);
+			bottom: 64px;
 			ul {
 				li {
 					a {
@@ -37,9 +90,72 @@
 		.menu__button {
 		}
 		.header__menu {
-			ul {
-				li {
+			max-width: 304px;
+			padding: 40px;
+			margin-left: auto;
+			.top {
+				img {
+				}
+				ul {
+					li {
+						a {
+						}
+					}
+				}
+			}
+			.bottom {
+				.contact__block {
 					a {
+					}
+					span {
+					}
+				}
+			}
+		}
+		&.open {
+			.menu__button {
+			}
+			.header__menu {
+				transform: translateY(74px);
+				bottom: 74px;
+				ul {
+					li {
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(xmedium) {
+		.menu__button {
+			display: none;
+		}
+		.header__menu {
+			max-width: unset;
+			padding: 0;
+			margin-left: 0;
+			transform: translateY(0);
+			position: relative;
+			.top {
+				img {
+					display: none;
+				}
+				ul {
+					flex-direction: row;
+					li {
+						a {
+							text-transform: unset;
+						}
+					}
+				}
+			}
+			.bottom {
+				display: none;
+				.contact__block {
+					a {
+					}
+					span {
 					}
 				}
 			}
