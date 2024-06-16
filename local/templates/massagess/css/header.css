@@ -46,7 +46,11 @@ header {
         display: block; } }
   @media (min-width: 992px) {
     header {
-      top: 32px; }
+      top: 32px;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+      header.scrolling {
+        transform: translateY(-32px); }
       header .container .header__line {
         position: relative; }
         header .container .header__line .logo {
@@ -77,8 +81,16 @@ header {
   @media (min-width: 1024px) {
     header {
       top: 32px; } }
+  @media (min-width: 1280px) {
+    header .container .header__line .actions .button {
+      font-size: 16px;
+      padding: 16px 32px; } }
   @media (min-width: 1920px) {
     header .container .header__line {
-      padding: 16px 160px; } }
+      padding: 16px 160px; }
+      header .container .header__line .logo {
+        left: 160px; }
+      header .container .header__line .actions .button {
+        right: 160px; } }
 
 /*# sourceMappingURL=header.css.map */

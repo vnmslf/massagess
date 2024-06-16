@@ -1,11 +1,12 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 use Bitrix\Main\Page\Asset;
 CJSCore::Init(array('jquery'));
-Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/main.min.js');
-Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/jquery.maskedinput.min.js');
 Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/main__styles.min.css');
 Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/header.min.css');
 Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/modal.min.css');
+Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/main.min.js');
+Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/header.min.js');
+Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/jquery.maskedinput.min.js');
 $now_url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'].'/';?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">

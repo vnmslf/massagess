@@ -26,9 +26,6 @@
 			justify-content: center;
 			gap: 48px;
 			width: 100%;
-			img {
-				width: 100%;
-			}
 			ul {
 				display: flex;
 				flex-direction: column;
@@ -94,8 +91,6 @@
 			padding: 40px;
 			margin-left: auto;
 			.top {
-				img {
-				}
 				ul {
 					li {
 						a {
@@ -138,9 +133,6 @@
 			transform: translateY(0);
 			position: relative;
 			.top {
-				img {
-					display: none;
-				}
 				ul {
 					flex-direction: row;
 					li {
@@ -152,6 +144,30 @@
 			}
 			.bottom {
 				display: none;
+				.contact__block {
+					a {
+					}
+					span {
+					}
+				}
+			}
+		}
+	}
+	@include media-up(xlarge) {
+		.menu__button {
+		}
+		.header__menu {
+			.top {
+				ul {
+					gap: 40px;
+					li {
+						a {
+
+						}
+					}
+				}
+			}
+			.bottom {
 				.contact__block {
 					a {
 					}

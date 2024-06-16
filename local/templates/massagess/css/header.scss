@@ -47,6 +47,10 @@ header {
 	}
 	@include media-up(xmedium) {
 		top: 32px;
+		@include default_transition(.2s);
+		&.scrolling {
+			transform: translateY(-32px);
+		}
 		.container {
 			.header__line {
 				position: relative;
@@ -93,10 +97,37 @@ header {
 			}
 		}
 	}
+	@include media-up(xlarge) {
+		.container {
+			.header__line {
+				.actions {
+					.button {
+						font-size: 16px;
+						padding: 16px 32px;
+					}
+					.basket,
+					.menu__block {
+					}
+				}
+			}
+		}
+	}
 	@include media-up(wide) {
 		.container {
 			.header__line {
 				padding: 16px 160px;
+				.logo {
+					left: 160px;
+				}
+				.actions {
+					.button {
+						right: 160px;
+					}
+					.basket {
+					}
+					.menu__block {
+					}
+				}
 			}
 		}
 	}

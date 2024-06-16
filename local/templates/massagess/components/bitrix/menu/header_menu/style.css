@@ -39,8 +39,6 @@
     justify-content: center;
     gap: 48px;
     width: 100%; }
-    .menu__block .header__menu .top img {
-      width: 100%; }
     .menu__block .header__menu .top ul {
       display: flex;
       flex-direction: column;
@@ -94,13 +92,14 @@
     margin-left: 0;
     transform: translateY(0);
     position: relative; }
-    .menu__block .header__menu .top img {
-      display: none; }
     .menu__block .header__menu .top ul {
       flex-direction: row; }
       .menu__block .header__menu .top ul li a {
         text-transform: unset; }
     .menu__block .header__menu .bottom {
       display: none; } }
+@media (min-width: 1280px) {
+  .menu__block .header__menu .top ul {
+    gap: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

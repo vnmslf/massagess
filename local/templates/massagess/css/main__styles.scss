@@ -221,5 +221,5 @@ pre {
 	display: none;
 }
 .button {
-	@include default_btn($white, $sb, $sb-light, $gray);
+	@include default_btn($white, $sb, $sb-light, $gray, $sb-dark);
 }

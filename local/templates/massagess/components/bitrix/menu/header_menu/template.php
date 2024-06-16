@@ -6,7 +6,6 @@ if (!empty($arResult)) {?>
 	</div>
 	<div class="header__menu">
 		<div class="top">
-			<img src="<?=SITE_TEMPLATE_PATH?>/images/logo.svg" alt="SPA ROOM MASSAGESS" />
 			<ul>
 	<?$previousLevel = 0;
 	$countItems = count($arResult);

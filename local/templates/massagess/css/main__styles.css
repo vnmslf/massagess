@@ -232,11 +232,21 @@ pre {
   text-transform: uppercase;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear; }
-  .button:focus {
+  .button:hover {
+    color: #f8f8f8;
     background: #899fab;
+    border-color: #899fab; }
+  .button:focus {
+    background: #6b818d;
     color: #f8f8f8; }
+  .button.disabled {
+    background: #b2b2b2;
+    color: rgba(248, 248, 248, 0.5); }
+  @media (min-width: 768px) {
+    .button {
+      padding: 16px 24px; } }
   @media (min-width: 1024px) {
-    .button:hover {
-      background: #ffcc00; } }
+    .button {
+      padding: 16px 32px; } }
 
 /*# sourceMappingURL=main__styles.css.map */
