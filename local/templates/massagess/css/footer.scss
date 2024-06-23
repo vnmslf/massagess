@@ -118,10 +118,14 @@ footer {
 	}
 	@include media-up(medium) {
 		.container {
+			gap: 44px;
 			.top {
+				gap: 32px;
 				img {
 				}
 				.contacts {
+					flex-direction: row;
+					justify-content: space-between;
 					.contact__block {
 						a {
 						}
@@ -135,6 +139,8 @@ footer {
 					a {
 					}
 					.licence__block {
+						flex-direction: row;
+						gap: 8px;
 						.caption {
 						}
 						.licence__number {
@@ -145,26 +151,53 @@ footer {
 				}
 			}
 		}
+		svg {
+			path {
+				stroke-width: 1;
+			}
+		}
 	}
 	@include media-up(xmedium) {
+		padding: 40px 0 17px;
 		.container {
+			gap: 80px;
 			.top {
+				gap: 80px;
 				img {
+					width: 264px;
+					height: 56px;
 				}
 				.contacts {
+					width: 100%;
 					.contact__block {
+						gap: 16px;
 						a {
+							font-size: 24px;
+							line-height: 28px;
+							letter-spacing: unset;
 						}
 						span {
+							font-size: 16px;
+							line-height: 24px;
+							letter-spacing: 0.02em;
 						}
 					}
 				}
 			}
 			.bottom {
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: flex-end;
 				.license {
+					align-items: flex-start;
+					gap: 32px;
 					a {
+						font-size: 16px;
+						line-height: 24px;
 					}
 					.licence__block {
+						font-size: 16px;
+						line-height: 24px;
 						.caption {
 						}
 						.licence__number {
@@ -172,6 +205,8 @@ footer {
 					}
 				}
 				.copyright {
+					font-size: 16px;
+					line-height: 24px;
 				}
 			}
 		}

@@ -9,15 +9,15 @@ Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/footer.min.css');?>
 				<div class="contacts">
 					<div class="contact__block">
 						<a href="tel:+79034005588">+7 903-400-55-88</a>
-						<span>ул. Серафимовича, 107</span>
-					</div>
-					<div class="contact__block">
-						<a href="tel:+79034005588">+7 903-400-55-88</a>
 						<span>просп. Кировский, 48</span>
 					</div>
 					<div class="contact__block">
 						<a href="tel:+79034005588">+7 903-400-55-88</a>
 						<span>ул. Береговая, 25Г/4,<br />отель Radisson Blu</span>
+					</div>
+					<div class="contact__block">
+						<a href="tel:+79034005588">+7 903-400-55-88</a>
+						<span>ул. Серафимовича, 107</span>
 					</div>
 				</div>
 			</div>
