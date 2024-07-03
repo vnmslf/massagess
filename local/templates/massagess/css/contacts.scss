@@ -1,0 +1,164 @@
+@import "./../scss/style";
+section.contacts {
+	padding: 32px 0 64px;
+	.container {
+		flex-direction: column;
+		gap: 48px;
+		h1 {
+			color: $sb-light;
+		}
+		.map__blocks {
+			display: flex;
+			flex-direction: column;
+			gap: 64px;
+			.map {
+				display: flex;
+				flex-direction: column;
+				gap: 32px;
+				iframe {
+					width: 100%;
+					height: 260px;
+					border-radius: 16px;
+					display: block;
+				}
+				.map__info {
+					display: flex;
+					flex-direction: column;
+					gap: 12px;
+					p {
+						margin: 0;
+						font-size: 16px;
+						line-height: 24px;
+						letter-spacing: 0.02em;
+						color: $sb-70;
+					}
+					a {
+						font-size: 20px;
+						line-height: 24px;
+						color: $sb;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
+	@include media-up(small) {
+		.container {
+			h1 {
+			}
+			.map__blocks {
+				.map {
+					iframe {
+						height: 296px;
+					}
+					.map__info {
+						p {
+						}
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(medium) {
+		.container {
+			h1 {
+			}
+			.map__blocks {
+				.map {
+					iframe {
+						height: 424px;
+					}
+					.map__info {
+						p {
+						}
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(xmedium) {
+		.container {
+			h1 {
+			}
+			.map__blocks {
+				.map {
+					flex-direction: row;
+					align-items: center;
+					gap: 40px;
+					iframe {
+						width: 536px;
+						min-width: 536px;
+						height: 369px;
+					}
+					.map__info {
+						p {
+						}
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(large) {
+		.container {
+			h1 {
+			}
+			.map__blocks {
+				.map {
+					iframe {
+					}
+					.map__info {
+						p {
+						}
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(xlarge) {
+		.container {
+			h1 {
+			}
+			.map__blocks {
+				.map {
+					iframe {
+						width: 675px;
+						min-width: 675px;
+						height: 465px;
+					}
+					.map__info {
+						p {
+						}
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(wide) {
+		.container {
+			h1 {
+			}
+			.map__blocks {
+				.map {
+					iframe {
+					}
+					.map__info {
+						p {
+						}
+						a {
+						}
+					}
+				}
+			}
+		}
+	}
+}

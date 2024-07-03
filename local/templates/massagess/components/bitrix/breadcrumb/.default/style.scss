@@ -1,0 +1,120 @@
+@import './../../../../scss/style.scss';
+
+.breadcrumbs__section {
+	.container {
+		.breadcrumbs {
+			padding: 0 8px;
+			display: flex;
+			flex-direction: row;
+			gap: 4px;
+			width: 100%;
+			.backlink {
+				height: 24px;
+			}
+			.breadcrumb__item {
+				height: 24px;
+				.breadcrumb__item-element {
+					color: $sb;
+					font-size: 14px;
+					line-height: 16px;
+					letter-spacing: 0.02em;
+					text-transform: uppercase;
+					display: flex;
+					align-items: center;
+					height: 24px;
+					span {
+						color: $sb_70;
+					}
+				}
+			}
+		}
+	}
+	@include media-up(small) {
+		.container {
+			.breadcrumbs {
+				.backlink {
+				}
+				.breadcrumb__item {
+					.breadcrumb__item-element {
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(medium) {
+		.container {
+			.breadcrumbs {
+				.backlink {
+				}
+				.breadcrumb__item {
+					.breadcrumb__item-element {
+						display: flex;
+						align-items: center;
+						font-size: 16px;
+						line-height: 1;
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(xmedium) {
+		.container {
+			.breadcrumbs {
+				.backlink {
+				}
+				.breadcrumb__item {
+					.breadcrumb__item-element {
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(large) {
+		.container {
+			.breadcrumbs {
+				.backlink {
+				}
+				.breadcrumb__item {
+					.breadcrumb__item-element {
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(xlarge) {
+		.container {
+			.breadcrumbs {
+				.backlink {
+				}
+				.breadcrumb__item {
+					.breadcrumb__item-element {
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+	@include media-up(wide) {
+		.container {
+			.breadcrumbs {
+				.backlink {
+				}
+				.breadcrumb__item {
+					.breadcrumb__item-element {
+						span {
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+/* colors*/
+/* breakpoints*/
+/*
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+	}
+	@include media-up(xmedium) {
+	}
+	@include media-up(large) {
+	}
+	@include media-up(xlarge) {
+	}
+	@include media-up(wide) {
+	}*/
+.breadcrumbs__section .container .breadcrumbs {
+  padding: 0 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: 100%; }
+  .breadcrumbs__section .container .breadcrumbs .backlink {
+    height: 24px; }
+  .breadcrumbs__section .container .breadcrumbs .breadcrumb__item {
+    height: 24px; }
+    .breadcrumbs__section .container .breadcrumbs .breadcrumb__item .breadcrumb__item-element {
+      color: #40515a;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      height: 24px; }
+      .breadcrumbs__section .container .breadcrumbs .breadcrumb__item .breadcrumb__item-element span {
+        color: rgba(64, 81, 90, 0.7); }
+@media (min-width: 768px) {
+  .breadcrumbs__section .container .breadcrumbs .breadcrumb__item .breadcrumb__item-element {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1; } }
+
+/*# sourceMappingURL=style.css.map */

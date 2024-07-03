@@ -14,88 +14,13 @@
 	@include media-up(wide) {
 	}*/
 @font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Thn.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-ThnIt.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Thn.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-ThnIt.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Lgt.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-LgtIt.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Reg.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-RegIt.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Med.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-MedIt.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Bld.ttf") format("truetype");
+  font-family: 'Soyuz Grotesk';
+  src: url("./../fonts/Soyuz_Grotesk_Bold.otf") format("truetype");
   font-weight: 600;
   font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-BldIt.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Blk.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-BlkIt.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-Ult.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal; }
-@font-face {
-  font-family: "TacticSans";
-  src: url("./../fonts/TacticSans/TacticSans-UltIt.ttf") format("truetype");
-  font-weight: 800;
-  font-style: italic; }
 body {
   color: #080808;
-  background-color: #b2b2b2;
+  background-color: #f8f8f8;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   margin: 0;
@@ -109,7 +34,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   color: #080808;
-  font-family: "TacticSans", sans-serif;
+  font-family: "Soyuz Grotesk", sans-serif;
   margin: 0;
   font-weight: 500; }
 
@@ -248,5 +173,17 @@ pre {
   @media (min-width: 1024px) {
     .button {
       padding: 16px 32px; } }
+
+main {
+  padding-top: 112px; }
+  @media (min-width: 768px) {
+    main {
+      padding-top: 128px; } }
+  @media (min-width: 992px) {
+    main {
+      padding-top: 160px; } }
+  @media (min-width: 1280px) {
+    main {
+      padding-top: 164px; } }
 
 /*# sourceMappingURL=main__styles.css.map */
