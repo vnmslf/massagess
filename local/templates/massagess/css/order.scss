@@ -14,13 +14,13 @@ form {
 				font-size: 14px;
 				line-height: 17px; 
 				span {
-					color: $light_red;
+					color: $black;
 				}
 			}
 			input {
 				padding: 10px;
-				background: $gray;
-				color: $dark_white;
+				background: $black;
+				color: $white;
 				font-family: inherit;
 				border-radius: 4px;
 				border: 0;
@@ -32,13 +32,11 @@ form {
 		.form-submit {
 			position: relative;
 			button {
-				@include default_btn($accent_red, $dark_red);
 				width: 100%;
 				color: $white;
 				font-weight: 500;
 				font-size: 14px;
 				line-height: 17px;
-				font-family: "TacticSans", sans-serif;
 			}
 			.no-submit {
 				width: 100%;
@@ -79,7 +77,7 @@ form {
 						transform: translate(-100%, -50%);
 					}
 					a {
-						color: $rose;
+						color: $sb;
 						text-decoration: underline;
 					}	
 				}
@@ -107,7 +105,7 @@ form {
 					}
 					label {
 						.check {
-							background: $accent_red;
+							background: $sb-light;
 						}
 						a {
 						}	
@@ -118,26 +116,26 @@ form {
 	}
 }
 ::-webkit-input-placeholder {
-	color: $dark_white;
+	color: $white;
 	opacity: 1;
 }
 :-moz-placeholder {
-	color: $dark_white;
+	color: $white;
 	opacity: 1;
 }
 ::-moz-placeholder {
-	color: $dark_white;
+	color: $white;
 	opacity: 1;
 }
 :-ms-input-placeholder {
-	color: $dark_white;
+	color: $white;
 	opacity: 1;
 }
 ::-ms-input-placeholder {
-	color: $dark_white;
+	color: $white;
 	opacity: 1;
 }
 ::placeholder {
-	color: $dark_white;
+	color: $white;
 	opacity: 1;
 }

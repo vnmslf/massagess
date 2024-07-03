@@ -23,7 +23,7 @@ Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/footer.min.css');?>
 			</div>
 			<div class="bottom">
 				<div class="license">
-					<a href="#">Юридические аспекты</a>
+					<a href="/legal/">Юридические аспекты</a>
 					<div class="licence__block">
 						<div class="caption">Лицензирование медицинской деятельности:</div>
 						<div class="licence__number">ЛО-61-01-007577</div>

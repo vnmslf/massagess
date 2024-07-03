@@ -18,6 +18,8 @@ footer {
   padding: 48px 0;
   position: relative; }
   footer .container {
+    position: relative;
+    z-index: 1;
     flex-direction: column;
     gap: 64px; }
     footer .container .top {

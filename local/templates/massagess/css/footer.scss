@@ -4,6 +4,8 @@ footer {
 	padding: 48px 0;
 	position: relative;
 	.container {
+		position: relative;
+		z-index: 1;
 		flex-direction: column;
 		gap: 64px;
 		.top {

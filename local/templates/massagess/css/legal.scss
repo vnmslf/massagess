@@ -1,0 +1,70 @@
+@import "./../scss/style";
+section.legal {
+	padding: 48px 0 64px;
+	.container {
+		flex-direction: column;
+		gap: 64px;
+		.legal__filters {
+			display: flex;
+			flex-direction: column;
+			gap: 32px;
+			h1 {
+				color: $sb-light;
+			}
+			.legal__filters-block {
+				display: flex;
+				flex-direction: column;
+				.filter {
+					padding: 8px 24px;
+					font-size: 16px;
+					line-height: 24px;
+					letter-spacing: 0.02em;
+					color: $sb;
+					width: max-content;
+					&.active {
+						background: rgba($sb-light, .2);
+						border-radius: 8px;
+					}
+				}
+			}
+		}
+		.info {
+		}
+	}
+	@include media-up(small) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(medium) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(xmedium) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(large) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(xlarge) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(wide) {
+		.container {
+			h1 {
+			}
+		}
+	}
+}

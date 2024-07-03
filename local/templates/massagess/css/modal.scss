@@ -11,7 +11,7 @@
 	min-width: 328px;
 	position: fixed;
 	z-index: -1;
-	background: $dark_gray;
+	background: $white;
 	border-radius: 10px;
 	top: 50%;
 	left: 50%;
@@ -37,7 +37,6 @@
 		font-weight: 400;
 		font-size: 32px;
 		line-height: 38px;
-		font-family: "TacticSans", sans-serif;
 	}
 	&.open {
 		z-index: 2;

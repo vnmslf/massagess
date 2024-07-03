@@ -1,0 +1,48 @@
+@import "./../scss/style";
+section.not-found {
+	padding-bottom: 160px;
+	.container {
+		h1 {
+			font-size: 200px;
+			line-height: 1;
+			color: $sb-light;
+			margin: 0 auto;
+		}
+	}
+	@include media-up(small) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(medium) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(xmedium) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(large) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(xlarge) {
+		.container {
+			h1 {
+			}
+		}
+	}
+	@include media-up(wide) {
+		.container {
+			h1 {
+			}
+		}
+	}
+}

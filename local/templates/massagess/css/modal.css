@@ -1,5 +1,18 @@
 /* colors*/
 /* breakpoints*/
+/*
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+	}
+	@include media-up(xmedium) {
+	}
+	@include media-up(large) {
+	}
+	@include media-up(xlarge) {
+	}
+	@include media-up(wide) {
+	}*/
 .modal {
   display: flex;
   flex-direction: column;
@@ -12,15 +25,15 @@
   min-width: 328px;
   position: fixed;
   z-index: -1;
-  background: #0f0f15;
+  background: #f8f8f8;
   border-radius: 10px;
   top: 50%;
   left: 50%;
   right: 0;
   transform: translate(-50%, -100%);
   opacity: 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
   .modal .actions {
     position: absolute;
     top: 8px;
@@ -36,8 +49,7 @@
     margin: 0 auto 6px;
     font-weight: 400;
     font-size: 32px;
-    line-height: 38px;
-    font-family: "TacticSans", sans-serif; }
+    line-height: 38px; }
   .modal.open {
     z-index: 2;
     opacity: 1;
