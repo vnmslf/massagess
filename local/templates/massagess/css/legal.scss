@@ -21,6 +21,7 @@ section.legal {
 					letter-spacing: 0.02em;
 					color: $sb;
 					width: max-content;
+					cursor: pointer;
 					&.active {
 						background: rgba($sb-light, .2);
 						border-radius: 8px;

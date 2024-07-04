@@ -33,7 +33,8 @@ section.legal {
           line-height: 24px;
           letter-spacing: 0.02em;
           color: #40515a;
-          width: max-content; }
+          width: max-content;
+          cursor: pointer; }
           section.legal .container .legal__filters .legal__filters-block .filter.active {
             background: rgba(137, 159, 171, 0.2);
             border-radius: 8px; }
