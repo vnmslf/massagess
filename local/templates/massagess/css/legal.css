@@ -39,15 +39,21 @@ section.legal {
             background: rgba(137, 159, 171, 0.2);
             border-radius: 8px; }
     section.legal .container .info .info__block {
-      display: none; }
+      display: none;
+      flex-direction: column;
+      gap: 48px; }
       section.legal .container .info .info__block h2 {
         color: #899fab; }
-      section.legal .container .info .info__block h3 {
+      section.legal .container .info .info__block .info__block-text h3 {
         color: #40515a; }
-      section.legal .container .info .info__block p {
-        color: #40515a; }
+      section.legal .container .info .info__block .info__block-text p {
+        color: #40515a;
+        margin: 0 0 32px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em; }
       section.legal .container .info .info__block.active {
-        display: block; }
+        display: flex; }
   @media (min-width: 768px) {
     section.legal .container .legal__filters .legal__filters-block {
       flex-direction: row;

@@ -32,17 +32,25 @@ section.legal {
 		.info {
 			.info__block {
 				display: none;
+				flex-direction: column;
+				gap: 48px;
 				h2 {
 					color: $sb-light;
 				}
-				h3 {
-					color: $sb;
-				}
-				p {
-					color: $sb;
+				.info__block-text {
+					h3 {
+						color: $sb;
+					}
+					p {
+						color: $sb;
+						margin: 0 0 32px;
+						font-size: 16px;
+						line-height: 24px;
+						letter-spacing: 0.02em;
+					}
 				}
 				&.active {
-					display: block;
+					display: flex;
 				}
 			}
 		}
