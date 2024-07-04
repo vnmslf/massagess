@@ -37,5 +37,13 @@ section.legal {
           section.legal .container .legal__filters .legal__filters-block .filter.active {
             background: rgba(137, 159, 171, 0.2);
             border-radius: 8px; }
+    section.legal .container .info .info__block {
+      display: none; }
+      section.legal .container .info .info__block h2 {
+        color: #899fab; }
+      section.legal .container .info .info__block h3 {
+        color: #40515a; }
+      section.legal .container .info .info__block.active {
+        display: block; }
 
 /*# sourceMappingURL=legal.css.map */

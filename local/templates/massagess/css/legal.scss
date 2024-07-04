@@ -29,6 +29,18 @@ section.legal {
 			}
 		}
 		.info {
+			.info__block {
+				display: none;
+				h2 {
+					color: $sb-light;
+				}
+				h3 {
+					color: $sb;
+				}
+				&.active {
+					display: block;
+				}
+			}
 		}
 	}
 	@include media-up(small) {
