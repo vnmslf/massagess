@@ -43,7 +43,13 @@ section.legal {
         color: #899fab; }
       section.legal .container .info .info__block h3 {
         color: #40515a; }
+      section.legal .container .info .info__block p {
+        color: #40515a; }
       section.legal .container .info .info__block.active {
         display: block; }
+  @media (min-width: 768px) {
+    section.legal .container .legal__filters .legal__filters-block {
+      flex-direction: row;
+      flex-wrap: wrap; } }
 
 /*# sourceMappingURL=legal.css.map */
