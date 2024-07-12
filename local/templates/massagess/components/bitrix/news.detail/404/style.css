@@ -1,0 +1,86 @@
+/* colors*/
+/* breakpoints*/
+/*
+	@include media-up(small) {
+	}
+	@include media-up(medium) {
+	}
+	@include media-up(xmedium) {
+	}
+	@include media-up(large) {
+	}
+	@include media-up(xlarge) {
+	}
+	@include media-up(wide) {
+	}*/
+section.not-found {
+  padding-bottom: 160px; }
+  section.not-found .container {
+    position: relative;
+    flex-direction: column;
+    overflow: hidden; }
+    section.not-found .container h1 {
+      font-size: 200px;
+      line-height: 1;
+      color: #899fab;
+      margin: 0 auto; }
+    section.not-found .container picture {
+      position: absolute;
+      z-index: 1;
+      top: 33px;
+      left: 50%;
+      width: max-content;
+      transform: translate(-64%, 0); }
+    section.not-found .container a {
+      position: relative;
+      z-index: 2;
+      display: inline-block;
+      width: max-content;
+      margin: 260px auto 0;
+      padding: 12px 16px;
+      border-radius: 100px;
+      background: #899fab;
+      color: #f8f8f8;
+      border: 1px solid #f8f8f8;
+      cursor: pointer;
+      text-align: center;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+      padding: 16px 24px; }
+      section.not-found .container a:hover {
+        color: #899fab;
+        background: #f8f8f8;
+        border-color: #f8f8f8; }
+      section.not-found .container a:focus {
+        background: #f8f8f8;
+        color: #899fab; }
+      section.not-found .container a.disabled {
+        background: #f8f8f8;
+        color: rgba(248, 248, 248, 0.5); }
+      @media (min-width: 768px) {
+        section.not-found .container a {
+          padding: 16px 24px; } }
+      @media (min-width: 1024px) {
+        section.not-found .container a {
+          padding: 16px 32px; } }
+  @media (min-width: 992px) {
+    section.not-found .container {
+      overflow: visible; }
+      section.not-found .container picture {
+        top: 10px; } }
+  @media (min-width: 1024px) {
+    section.not-found .container a {
+      margin-top: 340px; } }
+  @media (min-width: 1280px) {
+    section.not-found .container picture {
+      top: -15px;
+      left: 53%; } }
+  @media (min-width: 1920px) {
+    section.not-found .container picture {
+      max-width: 1231px; } }
+
+/*# sourceMappingURL=style.css.map */

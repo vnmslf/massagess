@@ -26,7 +26,8 @@ header {
     width: 100%; }
     header .container .header__line .actions {
       display: flex;
-      gap: 4px; }
+      gap: 4px;
+      align-items: center; }
       header .container .header__line .actions .button {
         display: none; }
       header .container .header__line .actions .basket,
